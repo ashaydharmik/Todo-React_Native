@@ -31,7 +31,7 @@ const Details = ({ route }) => {
                 value={textHeading}
                 placeholder='Update todo' />
 
-            <Pressable style={styles.buttonUpdate} onPress={() => { updateTodo }}
+            <Pressable style={styles.buttonUpdate} onPress={() => { updateTodo() }}
             >
                 <Text>Update Todo</Text>
             </Pressable>
